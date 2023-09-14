@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "activites",
+  "info": {
+    "singularName": "activite",
+    "pluralName": "activites",
+    "displayName": "activite"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titre_Activite": {
+      "type": "string"
+    },
+    "mini_description": {
+      "type": "richtext"
+    },
+    "Article": {
+      "type": "richtext"
+    },
+    "image_garde": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "image_couverture": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "favorie": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
