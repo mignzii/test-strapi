@@ -4,7 +4,8 @@
   "info": {
     "singularName": "activite",
     "pluralName": "activites",
-    "displayName": "activite"
+    "displayName": "activite",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -21,24 +22,26 @@
       "type": "richtext"
     },
     "image_garde": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "image_couverture": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "favorie": {
       "type": "boolean",

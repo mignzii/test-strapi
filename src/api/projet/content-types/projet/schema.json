@@ -4,7 +4,8 @@
   "info": {
     "singularName": "projet",
     "pluralName": "projets",
-    "displayName": "projet"
+    "displayName": "projet",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,25 +15,36 @@
     "projet_title": {
       "type": "text"
     },
-    "Description": {
-      "type": "richtext"
-    },
-    "Projet_total": {
-      "type": "richtext"
-    },
     "image_projet": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "favorie": {
       "type": "boolean",
       "default": false
+    },
+    "Description": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "Projet_total": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
     }
   }
 }
