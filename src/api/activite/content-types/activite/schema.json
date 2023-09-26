@@ -15,12 +15,6 @@
     "titre_Activite": {
       "type": "string"
     },
-    "mini_description": {
-      "type": "richtext"
-    },
-    "Article": {
-      "type": "richtext"
-    },
     "image_garde": {
       "type": "media",
       "multiple": false,
@@ -46,6 +40,22 @@
     "favorie": {
       "type": "boolean",
       "default": false
+    },
+    "mini_description": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "Article": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
     }
   }
 }

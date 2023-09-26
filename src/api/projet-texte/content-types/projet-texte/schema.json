@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "projet_textes",
+  "info": {
+    "singularName": "projet-texte",
+    "pluralName": "projet-textes",
+    "displayName": "Projet_Texte",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Projet_Entete": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

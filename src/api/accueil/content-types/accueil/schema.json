@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "accueils",
+  "info": {
+    "singularName": "accueil",
+    "pluralName": "accueils",
+    "displayName": "Accueil",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titre": {
+      "type": "text"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "fond_d_ecran": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
