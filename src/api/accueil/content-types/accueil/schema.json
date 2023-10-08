@@ -19,9 +19,17 @@
       "type": "text"
     },
     "fond_d_ecran": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "videos"
+      ]
+    },
+    "fond_d_ecran_mobile": {
+      "allowedTypes": [
+        "images"
       ],
       "type": "media",
       "multiple": false
